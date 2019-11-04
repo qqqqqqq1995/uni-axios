@@ -1,0 +1,11 @@
+**/.*
+node_modules/
+pages/
+static/
+unpackage/
+utils/
+App.vue
+main.js
+manifest.json
+pages.json
+uni.scss
