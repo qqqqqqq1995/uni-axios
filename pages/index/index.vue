@@ -9,7 +9,7 @@
 
 <script>
 	import request from '@/utils/request.js'
-	import uniAxios from '@/index.js'
+	import uniAxios from '@/utils/uniAxios.js'
 	
 	export default {
 		data() {
@@ -19,13 +19,13 @@
 			}
 		},
 		onLoad() {
-			request.get('https://test.api.zqili.com/app/category/list', {header: {token: '123456789'}}).then(res => {
-				console.log(res)
-			}).catch( err => console.log(err))
+			// request.get('https://test.api.zqili.com/app/category/list', {header: {token: '123456789'}}).then(res => {
+			// 	console.log(res)
+			// }).catch( err => console.log(err))
 			// request('https://test.api.zqili.com/app/category/list').then(res => {
 			// 	console.log(res)
 			// })
-			uniAxios.get('https://test.api.zqili.com/app/category/list', {header: {token: '123456789'}}).then(res => {
+			uniAxios.get('app/category/list', {headers: {token: '123456789'}, showLoading: true}).then(res => {
 				console.log(res)
 			}).catch( err => console.log(err))
 		},
