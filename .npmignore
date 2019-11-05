@@ -5,6 +5,7 @@ static/
 unpackage/
 utils/
 App.vue
+Gruntfile.js
 main.js
 manifest.json
 pages.json
