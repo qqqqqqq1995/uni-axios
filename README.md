@@ -10,4 +10,4 @@ Using npm:
 $ npm install uni-axios
 ```
 
-具体请看实例项目和axios介绍 [axios](https://github.com/axios/axios)
+具体请看实例项目和[axios](https://github.com/axios/axios)介绍
