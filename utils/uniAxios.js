@@ -1,4 +1,5 @@
-var uniAxios = require('./../index');
+import uniAxios from './../dist/uni-axios.min.js';
+// import uniAxios from './../index.js';
 uniAxios.defaults.baseURL = 'https://test.api.zqili.com';
 uniAxios.interceptors.first.use(function (config){
 	console.log(config)
