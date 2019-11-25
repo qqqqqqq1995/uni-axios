@@ -1,6 +1,6 @@
-import uniAxios from './../dist/uni-axios.min.js';
-// import uniAxios from './../index.js';
-uniAxios.defaults.baseURL = 'https://test.api.zqili.com';
+// import uniAxios from './../dist/uni-axios.min.js';
+import uniAxios from './../index.js';
+// uniAxios.defaults.baseURL = '';
 uniAxios.interceptors.first.use(function (config){
 	console.log(config)
 	var showLoading = config.showLoading;

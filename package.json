@@ -1,6 +1,6 @@
 {
   "name": "uni-axios",
-  "version": "1.0.3",
+  "version": "1.0.5",
   "description": "base axios",
   "main": "index.js",
   "scripts": {

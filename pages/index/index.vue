@@ -25,7 +25,7 @@
 			// request('https://test.api.zqili.com/app/category/list').then(res => {
 			// 	console.log(res)
 			// })
-			uniAxios.get('app/category/list', {headers: {token: '123456789'}, showLoading: true}).then(res => {
+			uniAxios.post('https://www.fastmock.site/mock/848517155615356f2cbfc0d935619ba9/axios/post200', {"name": "zhengsan"}, {headers: {token: '123456789'}, showLoading: true}).then(res => {
 				console.log(res)
 			}).catch( err => console.log(err))
 		},
